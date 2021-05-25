@@ -3,3 +3,110 @@
 @import 'global';
 @import 'media';
 @import 'reset';
+
+
+.header{
+  .logo{
+    display: flex;
+  }
+  padding: 20px 0;
+  &__inner{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+  }
+  
+}
+.logo{
+  &__text{
+   
+    color: $accent;
+    font-size: 36px;
+    line-height: 58px;
+    font-weight: 700;
+     @extend %rubik-500; 
+
+  }
+}
+.menu{
+    &__list{
+      display: flex;
+    }
+    &__list-item + .menu__list-item{
+      padding-left: 36px;
+    }
+    &__list-link{
+      @extend %rubik-500;
+      color: $accent;
+      font-size: 16px;
+      line-height: 21px;
+      &:hover{
+        color: $accent;
+        border-bottom: 1px solid $accent;
+        transition: all .3s;
+
+      }
+    }
+  }
+  .user-nav{
+    display: flex;
+   
+    &__search{
+      background-color: #edf1f4;
+      margin-right: 20px;   
+      width: 53px;
+      height: 53px;
+      border: none;
+      border-radius: 50%;
+      svg {
+            width: 16px;
+            height: 16px;
+            fill: $accent;
+        }
+    }
+    
+    &__hidden{
+      overflow: hidden;
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+    }
+    &__item{
+      position: relative;
+      border: none;
+      background-color: #fcd7b6;
+    }
+    &__item--left{
+      padding: 12px 13px 12px 36px;
+      border-radius: 30px 0 0 30px;
+
+    }
+    &__item--right{
+      padding: 12px 30px 12px 32px;
+      border-radius: 0 30px 30px 0;
+
+    }
+    &__burger{
+      background-color: #a3bbc8;
+      width: 53px;
+      height: 53px;
+      border: none;
+      border-radius: 50%;
+      margin-left: 20px;
+    }
+    &__num{
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #fff;
+      color: $accent;
+      font-size: 10px;
+      top: 12px;
+      left: 47px;
+    }
+    &__wrap svg{
+      fill: $accent;
+    }
+  }
