@@ -2,6 +2,7 @@
 @import 'fonts';
 @import 'global';
 @import 'media';
+@import 'libs';
 @import 'reset';
 
 
@@ -167,9 +168,11 @@ width: 16px;
       border: none;
       max-width: 100px;
       width: 100%;
-      padding: 12px 16px;
+      padding: 12px 10px;
     background-color: #a3bbc8;
     color: #fff;
+     @extend %rubik-400;
+      
     }
   }
   .address {
@@ -198,6 +201,7 @@ width: 16px;
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
+  padding-bottom: 30px;
   &__copy{
     @extend %rubik-400;
     color: #7b7b7b;
@@ -219,3 +223,105 @@ width: 16px;
     color: #7b7b7b;
   }
 }
+
+
+.top-slider{
+  background-image: url('../images/slider-bg.png');
+    &__inner{
+ 
+  }
+   
+  &__wrap{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+     padding: 220px 0 280px;
+   &::before{
+     content: "";
+            position: absolute;
+            right: 19px;
+            top: 50%;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background-image: linear-gradient(to left, #fff 0%, rgba(#fff, 0) 100%);
+            transform: translateY(-50%);
+
+  
+   }
+  }
+  &__img-wrap{
+       position: relative;
+    top: 17px;
+}
+  &__content{
+    padding-right: 100px;
+  }
+  &__title{
+    @extend %rubik-500;
+    font-size: 72px;
+    max-width: 420px;
+    color: $title;
+    padding-bottom: 40px;
+  }
+  &__text{
+    padding-bottom: 44px;
+    @extend %rubik-400;
+    color: $accent;
+    max-width: 370px;
+    font-size: 18px;
+  }
+  &__link{
+    @extend %rubik-500;
+   
+    background-color: #a3bbc8;
+    color: #fff;
+    padding: 18px 12px 18px 20px;
+    font-size: 15px;
+    position: absolute;
+    fill: #fff;
+    span{
+      padding-right: 44px;
+    }
+  }
+}
+.slick-dots{
+  display: flex;    
+  position: absolute;
+  left: 50%;
+  bottom: 45px;
+  transform: translateX(-50%);
+   li {
+   &:not(:last-child) {
+   margin-right: 11px;
+  }
+  button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  font-weight: 500;
+  font-size: 12px;
+ border-color: #fff;
+  background-color: rgba(#fff, 0.3);
+  transition: background-color 0.5s;
+  
+                    &:focus,
+                    &:hover {
+                        background-color: rgba(#fff, 0.6);
+                    }
+                }
+
+                &.slick-active {
+                    button {
+                        background-color: #fff;
+                }
+        } 
+
+      }  
+      }
