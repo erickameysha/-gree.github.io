@@ -31,3 +31,20 @@ $title: #243f4d;
  color: #7b7b7b;
 
 }
+%hover-nav-header{
+  transition: background-color 0.5s, fill 0,5s;
+  &:hover{
+    background-color: #a3bbc8;
+    svg{
+      fill: #fff;
+    }
+  }
+
+}
+%hover-btn {
+    transition: color 0.5s;
+
+    &:hover {
+        color: #a3bbc8;
+    }
+} 
