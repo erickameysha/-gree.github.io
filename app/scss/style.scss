@@ -386,7 +386,8 @@ width: 16px;
   justify-content: center;
   padding-top: 33px;
   padding-bottom: 70px;
-  &__btn{
+  &__button{
+    
     border: none;
     background-color: #fff;
     @extend %dmsans-700;
@@ -395,6 +396,12 @@ width: 16px;
             color: #363636;
         }
   }
+  
+    &__item {
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+      }
 }
 
 
@@ -533,5 +540,108 @@ padding-right: 20px;
     }
   }
     }
+.design{
+  .gallery-nav{
+  display: flex;
+  justify-content: center;
+  padding-top: 33px;
+  padding-bottom: 70px;
+  }
+  &__title{
+    margin-bottom: 20px;
+  }
+
+&-items{
+  margin-bottom: 120px;
+   margin-top: 100px;
+ display: flex;
+ margin: 0 -15px;
+ flex-wrap: wrap;
+}
+&-item{
  
-    
+ margin: 0 15px 34px;
+  width: calc(100% / 3 - 30px);
+  height: 243px;
+}
+.design-card{
+  position: relative;
+  padding: 35px 0 0 35px;
+  @extend %dmsans-700;
+  background-color: #f8f8f8;
+  &__img-wrap{
+    position: absolute;
+  }
+}
+}
+.design-card{
+  position: relative;
+  padding: 35px 0 0 35px;
+  height: 100%;
+  overflow: hidden;
+
+  @extend %dmsans-700;
+  background-color: #f8f8f8;
+  &__img-wrap--lampe{
+    position: absolute;
+    bottom: 37px;
+    right: -13px;
+  }
+  &__img-wrap{
+    position: absolute;
+    bottom: 37px;
+    right: -13px;
+  }
+  &__img-wrap--rattan{
+    position: absolute;
+    bottom: 37px;
+    right: 6px;
+  }
+  &__img-wrap--chair{
+    position: absolute;
+    bottom: 15px;
+    right: -2px;
+  }
+  &__img-wrap--rocking{
+     position: absolute;
+    bottom: 23px;
+    right: 16px;
+  }
+  &__img-wrap--beat{
+    position: absolute;
+    bottom: 37px;
+    right: -88px;
+  }
+  &__img-wrap--sur{
+    position: absolute;
+    bottom: -13px;
+    right: -1 px;
+  }
+  &__card-link{
+    margin-bottom: 17px;
+    display: block;
+    max-width: 171px;
+  }
+  &__card-title{
+    @extend %dmsans-700;
+    color: #191919;
+    font-size: 20px;
+  }
+  &__text{
+    color: #a3bbc8;
+  }
+  .video__section{
+  background-image: url("../images/design/video-bg.png");
+  background-repeat: no-repeat;
+  height: 500px;
+}
+}
+.video__section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+  background-image: url("../images/design/video-bg.png");
+  background-repeat: no-repeat;
+  height: 500px;
+}

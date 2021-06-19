@@ -21,3 +21,34 @@ flex-direction: column;
 main{
   flex-grow: 1;
 }
+.gallery-nav{
+  display: flex;
+  justify-content: center;
+  padding-top: 33px;
+  padding-bottom: 70px;
+  &__button{
+    
+    border: none;
+    background-color: #fff;
+    @extend %dmsans-700;
+    color: #8b8b8b;
+     &.mixitup-control-active {
+            color: #363636;
+        }
+      }
+    }
+    .title{
+      text-align: center;
+    padding-top: 70px;
+    font-size: 36px;
+    color: #191919;
+    @extend %dmsans-700;
+    }
+    
+    @function max($numbers...){
+      @return m#{a}x(#{$numbers});
+    }
+    @function min($numbers...){
+    @return m#{i}n(#{$numbers});
+    }
+    
