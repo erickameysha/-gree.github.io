@@ -52,3 +52,35 @@ main{
     @return m#{i}n(#{$numbers});
     }
     
+     .breadcrumbs{
+       &__list{
+         display: flex;
+         justify-content: center;
+       }
+       &__link{
+         font-size: 14px;
+         line-height: 24px;
+         color: #222933;
+         @extend %rubik-400;
+        
+         }
+         &__item{
+           position: relative;
+           &::after{
+             content: '/';
+             position: absolute;
+             left: 45px;
+             top: 4px}
+               &:last-child{
+      
+          &::after{
+            display: none;
+          
+           }
+           }
+            &:not(:last-child){
+           margin-right: 20px;
+           
+         }
+       }
+     }
