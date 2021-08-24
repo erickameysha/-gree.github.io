@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Document</title>
+</head>
+<header class="header">
+  <div class="container container-long">
+    <div class="header__inner">
+      <a class="logo" href="">
+        <img class="logo__img" src="images/logo.png" alt="">
+
+      </a>
+
+
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">
+              Home +
+            </a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">
+              About
+            </a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">
+              Services
+            </a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">
+              Pages +
+            </a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">
+              News
+            </a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-nav">
+        <button class="user-nav__search" type="button">
+          <span class="user-nav__hidden">search</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="15.28" height="15.281" viewBox="0 0 15.28 15.281">
+
+            <path
+              d="M1547.7,72.076a0.617,0.617,0,0,1,.75.485,2.583,2.583,0,0,0,.78,1.489,3.036,3.036,0,0,0,1.49.777,0.636,0.636,0,0,1,.49.743,0.649,0.649,0,0,1-.72.515,4.21,4.21,0,0,1-2.14-1.13,4.164,4.164,0,0,1-1.13-2.136A0.6,0.6,0,0,1,1547.7,72.076ZM1550.98,66a6.267,6.267,0,0,1,6.28,6.257,6.136,6.136,0,0,1-.57,2.6l2.34,2.036c1.7,1.746.74,3.266,0.29,3.717-0.42.454-1.99,1.414-3.73-.292l-2.06-2.35A6.261,6.261,0,1,1,1550.98,66Zm5.55,13.517a1.352,1.352,0,0,0,1.88.226,1.313,1.313,0,0,0-.23-1.874l-2.16-1.88a6.236,6.236,0,0,1-1.37,1.34Zm-5.55-2.312a4.948,4.948,0,1,0-4.97-4.948A4.963,4.963,0,0,0,1550.98,77.2Z"
+              transform="translate(-1544.72 -66)" />
+          </svg>
+
+        </button>
+        <button class="user-nav__item  user-nav__item--left" type="button">
+          <span class="user-nav__wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17.87" height="15.531" viewBox="0 0 17.87 15.531">
+              <path
+                d="M1648.91,86.245a0.731,0.731,0,0,1-.28-0.056c-0.35-.15-8.65-3.749-8.65-10.76a28.181,28.181,0,0,0,13.05-4.707,4.817,4.817,0,0,1,4.81,4.684c0,7.034-8.29,10.634-8.65,10.783A0.7,0.7,0,0,1,1648.91,86.245Zm-4.11-14.138a3.427,3.427,0,0,0-3.41,3.346c0,5.407,6.13,8.662,7.52,9.334,1.4-.672,7.52-3.93,7.52-9.358a3.406,3.406,0,0,0-6.81.024,0.709,0.709,0,0,1-.71.669h0a0.694,0.694,0,0,1-.7-0.669A3.427,3.427,0,0,0,1644.8,72.106Z"
+                transform="translate(-1639.97 -70.719)" />
+            </svg>
+            <span class="user-nav__num">0</span>
+            <span class="user-nav__hidden">like</span>
+          </span>
+        </button>
+        <button class="user-nav__item  user-nav__item--right" type="button">
+          <span class="user-nav__wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18.94" height="16.969" viewBox="0 0 18.94 16.969">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #243f4d;
+                    fill-rule: evenodd;
+                  }
+                </style>
+              </defs>
+              <path class="cls-1"
+                d="M1721.53,85.978a2.073,2.073,0,1,1,0-4.147h0a2.056,2.056,0,0,1,1.46.6,2.03,2.03,0,0,1,.61,1.466A2.071,2.071,0,0,1,1721.53,85.978Zm0-2.963h0a0.889,0.889,0,1,0,.34,1.71,0.9,0.9,0,0,0,.55-0.824,0.92,0.92,0,0,0-.26-0.629A0.9,0.9,0,0,0,1721.53,83.015Zm8.39,2.963a2.045,2.045,0,0,1-1.46-.607,2.068,2.068,0,0,1,1.46-3.54h0a1.953,1.953,0,0,1,1.47.6,2.085,2.085,0,0,1-.67,3.383A2.093,2.093,0,0,1,1729.92,85.978Zm0-2.963h0a0.978,0.978,0,0,0-.82.548,0.887,0.887,0,0,0,1.16,1.161,0.891,0.891,0,0,0,.29-1.452A0.9,0.9,0,0,0,1729.92,83.015Zm-11.27.164a0.562,0.562,0,0,1-.25-0.056,0.59,0.59,0,0,1-.29-0.787,3.686,3.686,0,0,1,3.05-2.151l-1.05-5.391a0.591,0.591,0,1,1,1.16-.228l1.09,5.578h9.43l1.8-6.771h-13.3a4.346,4.346,0,0,1-4.28-3.693,0.587,0.587,0,0,1,.49-0.673,0.6,0.6,0,0,1,.68.5,3.159,3.159,0,0,0,3.11,2.682h14.07a0.582,0.582,0,0,1,.47.232,0.594,0.594,0,0,1,.11.513l-2.13,7.956a0.59,0.59,0,0,1-.57.44h-10.36a0.03,0.03,0,0,0-.02,0,2.66,2.66,0,0,0-2.68,1.51A0.586,0.586,0,0,1,1718.65,83.178Z"
+                transform="translate(-1716 -69)" />
+            </svg>
+
+            <span class="user-nav__num">0</span>
+            <span class="user-nav__hidden">chart</span>
+          </span>
+        </button>
+        <button class="user-nav__burger" type="button">
+          <span class="user-nav__hidden">burger</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20.03" height="20.031" viewBox="0 0 20.03 20.031">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #fff;
+                  fill-rule: evenodd;
+                }
+              </style>
+            </defs>
+            <path class="cls-1"
+              d="M1813.15,67.881a2.146,2.146,0,1,1,2.14-2.145A2.145,2.145,0,0,1,1813.15,67.881Zm0,7.869a2.146,2.146,0,1,1,2.14-2.147A2.146,2.146,0,0,1,1813.15,75.75Zm0,7.868a2.146,2.146,0,1,1,2.14-2.146A2.145,2.145,0,0,1,1813.15,83.618Zm7.86-15.737a2.146,2.146,0,1,1,2.15-2.145A2.143,2.143,0,0,1,1821.01,67.881Zm0,7.869a2.146,2.146,0,1,1,2.15-2.147A2.144,2.144,0,0,1,1821.01,75.75Zm0,7.868a2.146,2.146,0,1,1,2.15-2.146A2.143,2.143,0,0,1,1821.01,83.618Zm7.87-15.737a2.146,2.146,0,1,1,2.15-2.145A2.143,2.143,0,0,1,1828.88,67.881Zm0,7.869a2.146,2.146,0,1,1,2.15-2.147A2.144,2.144,0,0,1,1828.88,75.75Zm0,7.868a2.146,2.146,0,1,1,2.15-2.146A2.143,2.143,0,0,1,1828.88,83.618Z"
+              transform="translate(-1811 -63.594)" />
+          </svg>
+
+
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="main">
+  <section class="top">
+    <div class="top__container container-long">
+      <h3 class="top__title">About Us</h3>
+      <div class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="#">Home</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="#">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container">
+      <div class="about-wrapper">
+        <div class="about-left">
+          <img src="images/about/1.jpg" alt="">
+        </div>
+        <div class="about-right">
+          <div class="about-right-wrap">
+            <span>12</span>
+            <div class="about-right__subtitle" ">
+              <!-- <span>12</span> -->
+             <p>Years</p>
+             <p>Experience</p>
+             <p>Working</p>
+           </div>
+          </div>
+        <h3 class=" about__title">
+              Mission of our creative house
+              </h3>
+              <p class="about__text">
+                consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in
+                reprehenderit in voluptate velit esse cillum
+              </p>
+              <div class="about-advantage">
+                <ul class="about-advantage__items">
+                  <li class="about-advantage__item">
+                    <div class="about-advantage__info 
+                    about-advantage__info--project">
+
+                      <p class="about-advantage__title">
+                        520+
+                      </p>
+                      <div class="about-advantage__text">
+                        <p>Projects</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="about-advantage__item">
+                    <div class="about-advantage__info
+                    about-advantage__info--revenue">
+                      <p class="about-advantage__title">
+                        $4M
+                      </p>
+                      <div class="about-advantage__text">
+                        <p>Revenue</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="about-advantage__item">
+                    <div class="about-advantage__info
+                    about-advantage__info--awards ">
+                      <p class="about-advantage__title">
+                        250
+                      </p>
+                      <div class="about-advantage__text">
+                        <p>Awards</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <section class="statistics">
+    <div class="statistics-container container-long">
+      <div class="container">
+        <div class="statistics__wrap">
+          <ul class="statistics__items">
+            <li class="statistics__item">
+              .
+              <p class="statistics__text statistics__text--rate">99%</p>
+              <div class="statistics__subtitle ">
+                <p>Satisﬁed Clients Rate</p>
+              </div>
+            </li>
+            <li class="statistics__item">
+
+              <p class="statistics__text statistics__text--product">5020+</p>
+              <div class="statistics__subtitle ">
+                <p>Products Delivered</p>
+              </div>
+            </li>
+            <li class="statistics__item">
+              <p class="statistics__text statistics__text--time">23hr</p>
+              <div class="statistics__subtitle">
+                <p>Daily Working Time</p>
+              </div>
+            </li>
+            <li class="statistics__item">
+              <p class="statistics__text statistics__text--store">140+</p>
+              <div class="statistics__subtitle
+          ">
+                <p>Brands in Store</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="ourteam">
+    <div class="container">
+      <div class="ourteam__wrap">
+        <div class="ourteam-left">
+          <h3 class="ourteam__title">
+            Our Team
+          </h3>
+          <p class="ourteam__text">
+            Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, sed do eiusmod tempor inciLorem ipsum dolor sit
+            amet,
+            consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <a class="ourteam__btn" href="#">
+            Join With US
+            <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px"
+                height="11px">
+                <path fill-rule="evenodd"
+                  d="M8.931,11.007 C9.084,11.007 9.236,10.955 9.356,10.846 L14.790,5.934 C14.797,5.929 14.803,5.923 14.809,5.917 C14.820,5.906 14.830,5.896 14.840,5.885 L14.840,5.884 L14.841,5.884 C14.930,5.784 14.977,5.663 14.985,5.540 C14.988,5.496 14.986,5.453 14.979,5.410 C14.961,5.299 14.908,5.192 14.824,5.103 C14.813,5.092 14.802,5.082 14.791,5.072 L9.356,0.160 C9.109,-0.064 8.717,-0.055 8.482,0.182 C8.247,0.419 8.258,0.792 8.506,1.016 L12.817,4.913 L0.631,4.913 C0.290,4.913 0.014,5.177 0.014,5.503 C0.014,5.828 0.290,6.092 0.631,6.092 L12.817,6.092 L8.506,9.990 C8.258,10.213 8.247,10.587 8.482,10.824 C8.604,10.946 8.767,11.007 8.931,11.007 Z" />
+              </svg></span>
+          </a>
+        </div>
+        <div class="ourteam-right">
+          <ul class="ourteam__list">
+            <li class="ourteam__item">
+              <img src="images/team/1.png" alt="">
+              <div class="ourteam__contacts">
+                <div class="ourteam__contacts--wrapp">
+                  <p class="ourteam__name">
+                    Eliza Elliot
+                  </p>
+                  <p class="ourteam__subtitle">
+                    Commodo tempor
+                  </p>
+                </div>
+                <div class="ourteam__contacts--social">
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="41px" height="41px">
+                      <path fill-rule="evenodd" fill="rgb(246, 246, 246)"
+                        d="M20.500,41.000 C9.163,41.000 -0.000,31.836 -0.000,20.499 C-0.000,9.163 9.163,-0.001 20.500,-0.001 C31.836,-0.001 41.000,9.163 41.000,20.499 C41.000,31.836 31.836,41.000 20.500,41.000 Z" />
+                      <path fill-rule="evenodd" fill="rgb(136, 136, 136)"
+                        d="M28.908,25.563 C28.375,27.523 27.095,28.683 25.111,29.002 C24.369,29.121 22.366,29.193 20.367,29.193 C18.320,29.193 16.276,29.118 15.588,28.939 C13.638,28.435 12.474,27.165 12.164,25.190 C11.933,23.739 11.909,16.999 12.328,15.536 C12.874,13.630 14.147,12.510 16.075,12.193 C16.949,12.050 18.658,11.999 20.385,11.999 C21.990,11.999 23.609,12.043 24.584,12.097 C25.764,12.159 26.845,12.539 27.723,13.381 C28.559,14.182 28.987,15.183 29.095,16.316 C29.223,17.669 29.306,24.064 28.908,25.563 ZM27.547,16.461 C27.393,14.948 26.468,13.954 24.972,13.719 C24.231,13.607 22.447,13.557 20.672,13.557 C18.960,13.557 17.256,13.604 16.506,13.685 C15.006,13.857 13.998,14.783 13.759,16.275 C13.512,17.855 13.514,23.767 13.699,24.955 C13.890,26.191 14.588,27.040 15.821,27.385 C16.489,27.573 18.487,27.639 20.447,27.639 C22.250,27.639 24.022,27.583 24.687,27.510 C26.201,27.344 27.202,26.412 27.441,24.907 C27.688,23.394 27.688,17.877 27.547,16.461 ZM25.209,17.055 C24.636,17.048 24.184,16.585 24.188,16.019 C24.192,15.450 24.651,14.990 25.219,14.990 L25.231,14.990 C25.798,14.990 26.257,15.453 26.252,16.026 C26.248,16.592 25.782,17.055 25.209,17.055 ZM20.563,25.010 C18.125,25.010 16.172,23.035 16.191,20.597 C16.210,18.160 18.200,16.184 20.637,16.191 C23.068,16.191 25.028,18.167 25.009,20.604 C24.991,23.035 23.000,25.010 20.563,25.010 ZM20.646,17.745 L20.620,17.745 C19.057,17.745 17.771,19.004 17.744,20.570 C17.719,22.144 18.973,23.436 20.547,23.449 L20.573,23.449 C22.135,23.449 23.423,22.191 23.449,20.625 C23.474,19.043 22.220,17.759 20.646,17.745 Z" />
+                    </svg></a>
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="41px" height="41px">
+                      <path fill-rule="evenodd" fill="rgb(246, 246, 246)"
+                        d="M20.500,41.000 C9.163,41.000 -0.000,31.836 -0.000,20.499 C-0.000,9.163 9.163,-0.001 20.500,-0.001 C31.836,-0.001 41.000,9.163 41.000,20.499 C41.000,31.836 31.836,41.000 20.500,41.000 Z" />
+                      <path fill-rule="evenodd" fill="rgb(136, 136, 136)"
+                        d="M31.691,18.835 L31.691,18.904 L31.677,20.720 L31.676,20.796 L31.601,20.796 L29.170,20.796 L29.152,23.227 L29.151,23.296 L29.082,23.296 L27.259,23.296 L27.190,23.296 L27.190,23.227 L27.209,20.796 L24.778,20.796 L24.702,20.796 L24.703,20.720 L24.717,18.904 L24.717,18.835 L24.793,18.835 L27.224,18.835 L27.242,16.397 L27.243,16.328 L27.312,16.328 L29.135,16.328 L29.204,16.328 L29.203,16.397 L29.185,18.835 L31.616,18.835 L31.691,18.835 ZM18.107,27.115 C17.469,27.280 16.821,27.361 16.168,27.361 C16.029,27.361 15.890,27.357 15.751,27.350 C14.342,27.267 13.062,26.825 11.928,25.989 C10.466,24.912 9.545,23.475 9.158,21.701 C9.017,21.058 8.967,20.416 9.020,19.767 C9.122,18.234 9.657,16.860 10.640,15.665 C11.658,14.415 12.955,13.600 14.505,13.207 C14.899,13.103 15.294,13.041 15.695,13.021 C15.922,13.013 16.150,13.000 16.378,13.000 C17.593,13.013 18.731,13.318 19.776,13.932 C20.477,14.333 20.874,14.740 21.045,14.864 C20.329,15.569 19.641,16.259 18.938,16.950 C18.416,16.500 17.839,16.087 16.839,15.934 C16.632,15.905 16.427,15.890 16.226,15.890 C14.219,15.890 12.538,17.341 12.090,19.243 C11.983,19.670 11.953,20.106 11.990,20.541 C12.143,22.309 13.326,23.759 14.925,24.277 C15.332,24.405 15.754,24.466 16.179,24.466 C16.278,24.466 16.377,24.463 16.477,24.457 C17.230,24.408 17.935,24.208 18.575,23.786 C19.650,23.054 19.998,21.908 20.000,21.625 L16.154,21.625 C16.154,21.530 16.168,19.733 16.175,18.855 L16.182,18.738 L22.936,18.738 C23.300,20.845 22.972,23.061 21.661,24.794 C20.754,25.989 19.547,26.742 18.107,27.115 Z" />
+                    </svg></a>
+
+                </div>
+            </li>
+            <li class="ourteam__item">
+              <img src="images/team/2.png" alt="">
+              <div class="ourteam__contacts">
+                <div class="ourteam__contacts--wrapp">
+                  <p class="ourteam__name">
+                    Roscoe A.
+                  </p>
+                  <p class="ourteam__subtitle">
+                    Commodo tempor
+                  </p>
+                </div>
+                <div class="ourteam__contacts--social">
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="41px" height="41px">
+                      <path fill-rule="evenodd" fill="rgb(246, 246, 246)"
+                        d="M20.500,41.000 C9.163,41.000 -0.000,31.836 -0.000,20.499 C-0.000,9.163 9.163,-0.001 20.500,-0.001 C31.836,-0.001 41.000,9.163 41.000,20.499 C41.000,31.836 31.836,41.000 20.500,41.000 Z" />
+                      <path fill-rule="evenodd" fill="rgb(136, 136, 136)"
+                        d="M28.908,25.563 C28.375,27.523 27.095,28.683 25.111,29.002 C24.369,29.121 22.366,29.193 20.367,29.193 C18.320,29.193 16.276,29.118 15.588,28.939 C13.638,28.435 12.474,27.165 12.164,25.190 C11.933,23.739 11.909,16.999 12.328,15.536 C12.874,13.630 14.147,12.510 16.075,12.193 C16.949,12.050 18.658,11.999 20.385,11.999 C21.990,11.999 23.609,12.043 24.584,12.097 C25.764,12.159 26.845,12.539 27.723,13.381 C28.559,14.182 28.987,15.183 29.095,16.316 C29.223,17.669 29.306,24.064 28.908,25.563 ZM27.547,16.461 C27.393,14.948 26.468,13.954 24.972,13.719 C24.231,13.607 22.447,13.557 20.672,13.557 C18.960,13.557 17.256,13.604 16.506,13.685 C15.006,13.857 13.998,14.783 13.759,16.275 C13.512,17.855 13.514,23.767 13.699,24.955 C13.890,26.191 14.588,27.040 15.821,27.385 C16.489,27.573 18.487,27.639 20.447,27.639 C22.250,27.639 24.022,27.583 24.687,27.510 C26.201,27.344 27.202,26.412 27.441,24.907 C27.688,23.394 27.688,17.877 27.547,16.461 ZM25.209,17.055 C24.636,17.048 24.184,16.585 24.188,16.019 C24.192,15.450 24.651,14.990 25.219,14.990 L25.231,14.990 C25.798,14.990 26.257,15.453 26.252,16.026 C26.248,16.592 25.782,17.055 25.209,17.055 ZM20.563,25.010 C18.125,25.010 16.172,23.035 16.191,20.597 C16.210,18.160 18.200,16.184 20.637,16.191 C23.068,16.191 25.028,18.167 25.009,20.604 C24.991,23.035 23.000,25.010 20.563,25.010 ZM20.646,17.745 L20.620,17.745 C19.057,17.745 17.771,19.004 17.744,20.570 C17.719,22.144 18.973,23.436 20.547,23.449 L20.573,23.449 C22.135,23.449 23.423,22.191 23.449,20.625 C23.474,19.043 22.220,17.759 20.646,17.745 Z" />
+                    </svg></a>
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="41px" height="41px">
+                      <path fill-rule="evenodd" fill="rgb(246, 246, 246)"
+                        d="M20.500,41.000 C9.163,41.000 -0.000,31.836 -0.000,20.499 C-0.000,9.163 9.163,-0.001 20.500,-0.001 C31.836,-0.001 41.000,9.163 41.000,20.499 C41.000,31.836 31.836,41.000 20.500,41.000 Z" />
+                      <path fill-rule="evenodd" fill="rgb(136, 136, 136)"
+                        d="M31.691,18.835 L31.691,18.904 L31.677,20.720 L31.676,20.796 L31.601,20.796 L29.170,20.796 L29.152,23.227 L29.151,23.296 L29.082,23.296 L27.259,23.296 L27.190,23.296 L27.190,23.227 L27.209,20.796 L24.778,20.796 L24.702,20.796 L24.703,20.720 L24.717,18.904 L24.717,18.835 L24.793,18.835 L27.224,18.835 L27.242,16.397 L27.243,16.328 L27.312,16.328 L29.135,16.328 L29.204,16.328 L29.203,16.397 L29.185,18.835 L31.616,18.835 L31.691,18.835 ZM18.107,27.115 C17.469,27.280 16.821,27.361 16.168,27.361 C16.029,27.361 15.890,27.357 15.751,27.350 C14.342,27.267 13.062,26.825 11.928,25.989 C10.466,24.912 9.545,23.475 9.158,21.701 C9.017,21.058 8.967,20.416 9.020,19.767 C9.122,18.234 9.657,16.860 10.640,15.665 C11.658,14.415 12.955,13.600 14.505,13.207 C14.899,13.103 15.294,13.041 15.695,13.021 C15.922,13.013 16.150,13.000 16.378,13.000 C17.593,13.013 18.731,13.318 19.776,13.932 C20.477,14.333 20.874,14.740 21.045,14.864 C20.329,15.569 19.641,16.259 18.938,16.950 C18.416,16.500 17.839,16.087 16.839,15.934 C16.632,15.905 16.427,15.890 16.226,15.890 C14.219,15.890 12.538,17.341 12.090,19.243 C11.983,19.670 11.953,20.106 11.990,20.541 C12.143,22.309 13.326,23.759 14.925,24.277 C15.332,24.405 15.754,24.466 16.179,24.466 C16.278,24.466 16.377,24.463 16.477,24.457 C17.230,24.408 17.935,24.208 18.575,23.786 C19.650,23.054 19.998,21.908 20.000,21.625 L16.154,21.625 C16.154,21.530 16.168,19.733 16.175,18.855 L16.182,18.738 L22.936,18.738 C23.300,20.845 22.972,23.061 21.661,24.794 C20.754,25.989 19.547,26.742 18.107,27.115 Z" />
+                    </svg></a>
+
+                </div>
+            </li>
+            <li class="ourteam__item">
+              <img src="images/team/3.png" alt="">
+              <div class="ourteam__contacts">
+                <div class="ourteam__contacts--wrapp">
+                  <p class="ourteam__name">
+                    Ruby M.
+                  </p>
+                  <p class="ourteam__subtitle">
+                    Commodo tempor
+                  </p>
+                </div>
+                <div class="ourteam__contacts--social">
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="41px" height="41px">
+                      <path fill-rule="evenodd" fill="rgb(246, 246, 246)"
+                        d="M20.500,41.000 C9.163,41.000 -0.000,31.836 -0.000,20.499 C-0.000,9.163 9.163,-0.001 20.500,-0.001 C31.836,-0.001 41.000,9.163 41.000,20.499 C41.000,31.836 31.836,41.000 20.500,41.000 Z" />
+                      <path fill-rule="evenodd" fill="rgb(136, 136, 136)"
+                        d="M28.908,25.563 C28.375,27.523 27.095,28.683 25.111,29.002 C24.369,29.121 22.366,29.193 20.367,29.193 C18.320,29.193 16.276,29.118 15.588,28.939 C13.638,28.435 12.474,27.165 12.164,25.190 C11.933,23.739 11.909,16.999 12.328,15.536 C12.874,13.630 14.147,12.510 16.075,12.193 C16.949,12.050 18.658,11.999 20.385,11.999 C21.990,11.999 23.609,12.043 24.584,12.097 C25.764,12.159 26.845,12.539 27.723,13.381 C28.559,14.182 28.987,15.183 29.095,16.316 C29.223,17.669 29.306,24.064 28.908,25.563 ZM27.547,16.461 C27.393,14.948 26.468,13.954 24.972,13.719 C24.231,13.607 22.447,13.557 20.672,13.557 C18.960,13.557 17.256,13.604 16.506,13.685 C15.006,13.857 13.998,14.783 13.759,16.275 C13.512,17.855 13.514,23.767 13.699,24.955 C13.890,26.191 14.588,27.040 15.821,27.385 C16.489,27.573 18.487,27.639 20.447,27.639 C22.250,27.639 24.022,27.583 24.687,27.510 C26.201,27.344 27.202,26.412 27.441,24.907 C27.688,23.394 27.688,17.877 27.547,16.461 ZM25.209,17.055 C24.636,17.048 24.184,16.585 24.188,16.019 C24.192,15.450 24.651,14.990 25.219,14.990 L25.231,14.990 C25.798,14.990 26.257,15.453 26.252,16.026 C26.248,16.592 25.782,17.055 25.209,17.055 ZM20.563,25.010 C18.125,25.010 16.172,23.035 16.191,20.597 C16.210,18.160 18.200,16.184 20.637,16.191 C23.068,16.191 25.028,18.167 25.009,20.604 C24.991,23.035 23.000,25.010 20.563,25.010 ZM20.646,17.745 L20.620,17.745 C19.057,17.745 17.771,19.004 17.744,20.570 C17.719,22.144 18.973,23.436 20.547,23.449 L20.573,23.449 C22.135,23.449 23.423,22.191 23.449,20.625 C23.474,19.043 22.220,17.759 20.646,17.745 Z" />
+                    </svg></a>
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="41px" height="41px">
+                      <path fill-rule="evenodd" fill="rgb(246, 246, 246)"
+                        d="M20.500,41.000 C9.163,41.000 -0.000,31.836 -0.000,20.499 C-0.000,9.163 9.163,-0.001 20.500,-0.001 C31.836,-0.001 41.000,9.163 41.000,20.499 C41.000,31.836 31.836,41.000 20.500,41.000 Z" />
+                      <path fill-rule="evenodd" fill="rgb(136, 136, 136)"
+                        d="M31.691,18.835 L31.691,18.904 L31.677,20.720 L31.676,20.796 L31.601,20.796 L29.170,20.796 L29.152,23.227 L29.151,23.296 L29.082,23.296 L27.259,23.296 L27.190,23.296 L27.190,23.227 L27.209,20.796 L24.778,20.796 L24.702,20.796 L24.703,20.720 L24.717,18.904 L24.717,18.835 L24.793,18.835 L27.224,18.835 L27.242,16.397 L27.243,16.328 L27.312,16.328 L29.135,16.328 L29.204,16.328 L29.203,16.397 L29.185,18.835 L31.616,18.835 L31.691,18.835 ZM18.107,27.115 C17.469,27.280 16.821,27.361 16.168,27.361 C16.029,27.361 15.890,27.357 15.751,27.350 C14.342,27.267 13.062,26.825 11.928,25.989 C10.466,24.912 9.545,23.475 9.158,21.701 C9.017,21.058 8.967,20.416 9.020,19.767 C9.122,18.234 9.657,16.860 10.640,15.665 C11.658,14.415 12.955,13.600 14.505,13.207 C14.899,13.103 15.294,13.041 15.695,13.021 C15.922,13.013 16.150,13.000 16.378,13.000 C17.593,13.013 18.731,13.318 19.776,13.932 C20.477,14.333 20.874,14.740 21.045,14.864 C20.329,15.569 19.641,16.259 18.938,16.950 C18.416,16.500 17.839,16.087 16.839,15.934 C16.632,15.905 16.427,15.890 16.226,15.890 C14.219,15.890 12.538,17.341 12.090,19.243 C11.983,19.670 11.953,20.106 11.990,20.541 C12.143,22.309 13.326,23.759 14.925,24.277 C15.332,24.405 15.754,24.466 16.179,24.466 C16.278,24.466 16.377,24.463 16.477,24.457 C17.230,24.408 17.935,24.208 18.575,23.786 C19.650,23.054 19.998,21.908 20.000,21.625 L16.154,21.625 C16.154,21.530 16.168,19.733 16.175,18.855 L16.182,18.738 L22.936,18.738 C23.300,20.845 22.972,23.061 21.661,24.794 C20.754,25.989 19.547,26.742 18.107,27.115 Z" />
+                    </svg></a>
+
+                </div>
+            </li>
+            <li class="ourteam__item">
+              <img src="images/team/4.png" alt="">
+              <div class="ourteam__contacts">
+                <div class="ourteam__contacts--wrapp">
+                  <p class="ourteam__name">
+                  Marie F. Bloss
+                  </p>
+                  <p class="ourteam__subtitle">
+                    Commodo tempor
+                  </p>
+                </div>
+                <div class="ourteam__contacts--social">
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41px"
+                      height="41px">
+                      <path fill-rule="evenodd" fill="rgb(246, 246, 246)"
+                        d="M20.500,41.000 C9.163,41.000 -0.000,31.836 -0.000,20.499 C-0.000,9.163 9.163,-0.001 20.500,-0.001 C31.836,-0.001 41.000,9.163 41.000,20.499 C41.000,31.836 31.836,41.000 20.500,41.000 Z" />
+                      <path fill-rule="evenodd" fill="rgb(136, 136, 136)"
+                        d="M28.908,25.563 C28.375,27.523 27.095,28.683 25.111,29.002 C24.369,29.121 22.366,29.193 20.367,29.193 C18.320,29.193 16.276,29.118 15.588,28.939 C13.638,28.435 12.474,27.165 12.164,25.190 C11.933,23.739 11.909,16.999 12.328,15.536 C12.874,13.630 14.147,12.510 16.075,12.193 C16.949,12.050 18.658,11.999 20.385,11.999 C21.990,11.999 23.609,12.043 24.584,12.097 C25.764,12.159 26.845,12.539 27.723,13.381 C28.559,14.182 28.987,15.183 29.095,16.316 C29.223,17.669 29.306,24.064 28.908,25.563 ZM27.547,16.461 C27.393,14.948 26.468,13.954 24.972,13.719 C24.231,13.607 22.447,13.557 20.672,13.557 C18.960,13.557 17.256,13.604 16.506,13.685 C15.006,13.857 13.998,14.783 13.759,16.275 C13.512,17.855 13.514,23.767 13.699,24.955 C13.890,26.191 14.588,27.040 15.821,27.385 C16.489,27.573 18.487,27.639 20.447,27.639 C22.250,27.639 24.022,27.583 24.687,27.510 C26.201,27.344 27.202,26.412 27.441,24.907 C27.688,23.394 27.688,17.877 27.547,16.461 ZM25.209,17.055 C24.636,17.048 24.184,16.585 24.188,16.019 C24.192,15.450 24.651,14.990 25.219,14.990 L25.231,14.990 C25.798,14.990 26.257,15.453 26.252,16.026 C26.248,16.592 25.782,17.055 25.209,17.055 ZM20.563,25.010 C18.125,25.010 16.172,23.035 16.191,20.597 C16.210,18.160 18.200,16.184 20.637,16.191 C23.068,16.191 25.028,18.167 25.009,20.604 C24.991,23.035 23.000,25.010 20.563,25.010 ZM20.646,17.745 L20.620,17.745 C19.057,17.745 17.771,19.004 17.744,20.570 C17.719,22.144 18.973,23.436 20.547,23.449 L20.573,23.449 C22.135,23.449 23.423,22.191 23.449,20.625 C23.474,19.043 22.220,17.759 20.646,17.745 Z" />
+                    </svg></a>
+                  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41px"
+                      height="41px">
+                      <path fill-rule="evenodd" fill="rgb(246, 246, 246)"
+                        d="M20.500,41.000 C9.163,41.000 -0.000,31.836 -0.000,20.499 C-0.000,9.163 9.163,-0.001 20.500,-0.001 C31.836,-0.001 41.000,9.163 41.000,20.499 C41.000,31.836 31.836,41.000 20.500,41.000 Z" />
+                      <path fill-rule="evenodd" fill="rgb(136, 136, 136)"
+                        d="M31.691,18.835 L31.691,18.904 L31.677,20.720 L31.676,20.796 L31.601,20.796 L29.170,20.796 L29.152,23.227 L29.151,23.296 L29.082,23.296 L27.259,23.296 L27.190,23.296 L27.190,23.227 L27.209,20.796 L24.778,20.796 L24.702,20.796 L24.703,20.720 L24.717,18.904 L24.717,18.835 L24.793,18.835 L27.224,18.835 L27.242,16.397 L27.243,16.328 L27.312,16.328 L29.135,16.328 L29.204,16.328 L29.203,16.397 L29.185,18.835 L31.616,18.835 L31.691,18.835 ZM18.107,27.115 C17.469,27.280 16.821,27.361 16.168,27.361 C16.029,27.361 15.890,27.357 15.751,27.350 C14.342,27.267 13.062,26.825 11.928,25.989 C10.466,24.912 9.545,23.475 9.158,21.701 C9.017,21.058 8.967,20.416 9.020,19.767 C9.122,18.234 9.657,16.860 10.640,15.665 C11.658,14.415 12.955,13.600 14.505,13.207 C14.899,13.103 15.294,13.041 15.695,13.021 C15.922,13.013 16.150,13.000 16.378,13.000 C17.593,13.013 18.731,13.318 19.776,13.932 C20.477,14.333 20.874,14.740 21.045,14.864 C20.329,15.569 19.641,16.259 18.938,16.950 C18.416,16.500 17.839,16.087 16.839,15.934 C16.632,15.905 16.427,15.890 16.226,15.890 C14.219,15.890 12.538,17.341 12.090,19.243 C11.983,19.670 11.953,20.106 11.990,20.541 C12.143,22.309 13.326,23.759 14.925,24.277 C15.332,24.405 15.754,24.466 16.179,24.466 C16.278,24.466 16.377,24.463 16.477,24.457 C17.230,24.408 17.935,24.208 18.575,23.786 C19.650,23.054 19.998,21.908 20.000,21.625 L16.154,21.625 C16.154,21.530 16.168,19.733 16.175,18.855 L16.182,18.738 L22.936,18.738 C23.300,20.845 22.972,23.061 21.661,24.794 C20.754,25.989 19.547,26.742 18.107,27.115 Z" />
+                    </svg></a>
+            
+                </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <section class=" articles articles--with-company">
+    <div class="container">
+      <div class="articles__top">
+        <h2 class="articles__title">
+          Our Insights & Articles
+        </h2>
+        <a class="articles__link">
+          View All
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="12px">
+            <path
+              d="M1.333,11.687 C1.184,11.687 1.034,11.626 0.922,11.504 C0.819,11.390 0.767,11.245 0.767,11.100 C0.767,10.943 0.826,10.789 0.944,10.673 L5.491,6.198 L0.944,1.724 C0.826,1.609 0.767,1.453 0.767,1.297 C0.767,1.152 0.819,1.007 0.922,0.893 C1.138,0.657 1.496,0.647 1.723,0.870 L6.700,5.768 C6.705,5.772 6.709,5.777 6.714,5.782 C6.762,5.831 6.801,5.889 6.827,5.951 L6.827,5.951 C6.828,5.951 6.828,5.951 6.828,5.951 C6.862,6.029 6.880,6.112 6.880,6.195 C6.880,6.196 6.880,6.197 6.880,6.198 C6.880,6.284 6.862,6.369 6.827,6.447 L6.827,6.447 C6.827,6.448 6.826,6.448 6.826,6.448 C6.826,6.449 6.826,6.449 6.826,6.449 C6.826,6.449 6.826,6.449 6.826,6.450 C6.799,6.509 6.762,6.565 6.715,6.614 C6.710,6.619 6.705,6.623 6.700,6.628 L1.723,11.527 C1.614,11.635 1.473,11.687 1.333,11.687 Z" />
+          </svg>
+        </a>
+      </div>
+      <ul class="articles__items">
+        <li class="articles__item">
+          <article class="articles-card">
+            <div class="articles-card__img-wrap">
+              <a class="articles-card__link" href="">
+                <img src="images/articles/1.jpg" alt="">
+                <a class="articles-card__subtitle" href="#">NEWS</a>
+              </a>
+            </div>
+            <div class="articles-card__info">
+              <a href="" class="articles-card__link">
+                <h3 class="articles-card__title">
+                  Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                </h3>
+              </a>
+
+              <div class="articles-card__bottom">
+                <a class=" articles-card__time">28 JANUARY, 2020</a>
+                <a class="articles-card__author" href="#"> BY ADMIN</a>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="articles__item">
+          <article class="articles-card">
+            <div class="articles-card__img-wrap">
+              <a class="articles-card__link" href="">
+                <img src="images/articles/1.jpg" alt="">
+                <a class="articles-card__subtitle" href="#">NEWS</a>
+              </a>
+            </div>
+            <div class="articles-card__info">
+              <a href="" class="articles-card__link">
+                <h3 class="articles-card__title">
+                  Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                </h3>
+              </a>
+
+              <div class="articles-card__bottom">
+                <a class=" articles-card__time">28 JANUARY, 2020</a>
+                <a class="articles-card__author" href="#"> BY ADMIN</a>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="articles__item">
+          <article class="articles-card">
+            <div class="articles-card__img-wrap">
+              <a class="articles-card__link" href="">
+                <img src="images/articles/1.jpg" alt="">
+                <a class="articles-card__subtitle" href="#">NEWS</a>
+              </a>
+            </div>
+            <div class="articles-card__info">
+              <a href="" class="articles-card__link">
+                <h3 class="articles-card__title">
+                  Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                </h3>
+              </a>
+
+              <div class="articles-card__bottom">
+                <a class=" articles-card__time">28 JANUARY, 2020</a>
+                <a class="articles-card__author" href="#"> BY ADMIN</a>
+              </div>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </div>
+
+  </section>
+  <div class="company company-with-articles">
+    <div class="container">
+      <ul class="company__items">
+        <li class="company__item">
+          <img src="images/news/1.png" alt="">
+        </li>
+        <li class="company__item">
+          <img src="images/news/2.png" alt="">
+        </li>
+        <li class="company__item">
+          <img src="images/news/3.png" alt="">
+        </li>
+        <li class="company__item">
+          <img src="images/news/4.png" alt="">
+        </li>
+        <li class="company__item">
+          <img src="images/news/5.png" alt="">
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container">
+
+    <div class="footer-top">
+      <adress class="adress">
+        <a class="logo footer-top__logo" href="">
+          <img class="logo__img" src="images/logo.png" alt="">
+
+        </a>
+        <div class="address__item">
+          <a class="address__link" href="#">
+            <p>ADDRESS: 4772 Wines Lane</p>
+            <p>Houston, TX 77032</p>
+          </a>
+        </div>
+        <div class="address__item">
+          <p>Telephone: <a href="tel:+8323475843">+832-347-5843</a></p>
+          <p>Email:contact@Glee.com</p>
+        </div>
+
+      </adress>
+      <div class="footer-top__item footer-top__service">
+        <h4 class="footer-top__title">Services</h4>
+        <ul class="footer-top__list">
+          <li class="footer-top__items">
+            <a class="footer-top__link">
+              About us
+            </a>
+          </li>
+          <li class="footer-top__items">
+            <a class="footer-top__link">
+              Return Policy
+            </a>
+          </li>
+          <li class="footer-top__items">
+            <a class="footer-top__link">
+              Our Blog
+            </a>
+          </li>
+          <li class="footer-top__items">
+            <a class="footer-top__link">
+              Contact Us
+            </a>
+          </li>
+          <li class="footer-top__items">
+            <a class="footer-top__link">
+              Terms & Condition
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+
+
+      <div class="footer-top__item footer-top__account">
+        <h4 class="footer-top__title">ACCOUNT</h4>
+        <ul class="footer-top__list">
+          <li class="footer-top__items">
+            <a class="footer-top__link">
+              Your Account
+            </a>
+          <li class="footer-top__items">
+            <a class="footer-top__link">
+              Checkout
+            </a>
+          <li class="footer-top__items">
+            <a class="footer-top__link">
+              Login
+            </a>
+          <li class="footer-top__items">
+            <a class="footer-top__link">
+              Register
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-top__item footer-top__item-form">
+        <h4 class="footer-top__title">
+          newsletter
+        </h4>
+        <p class="footer-top__items">Subscribe by our newsletter and get
+          update protidin.</p>
+        <form class="footer-top__form">
+          <input class="footer-top__input" type="email" placeholder="Email address">
+          <button class="footer-top__btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-bottom__copy">
+        ©2020 CopyRight Example. All rights reserved.
+      </p>
+      <ul class="footer-navigation">
+        <li class="footer-navigation__item">
+          <a class="footer-navigation__link" href="#">Home </a>
+        </li>
+        <li class="footer-navigation__item">
+          <a class="footer-navigation__link" href="#">About</a>
+        </li>
+        <li class="footer-navigation__item">
+          <a class="footer-navigation__link" href="#">Blog</a>
+        </li>
+        <li class="footer-navigation__item">
+          <a class="footer-navigation__link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+<script src="js/main.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+$accent: #436372;
+$title: #243f4d;
+$btn-color: #a3bbc8;
+%dmsans-400{
+  font-family: 'DMSans-Regular', sans-serif;
+ font-weight: 400;
+}
+%dmsans-500{
+  font-family: 'DMSans-Medium', sans-serif;
+ font-weight: 500;
+}
+%dmsans-700{
+  font-family: 'DMSans-Bold', sans-serif;
+ font-weight: 700;
+}
+%poppins-700{
+  font-family: 'Poppins-Bold', sans-serif;
+ font-weight: 700;
+}
+%rubik-500{
+  font-family: 'Rubik-Medium', sans-serif;
+ font-weight: 500;
+}
+%rubik-400{
+  font-family: 'Rubik-Regular', sans-serif;
+ font-weight: 400;
+}
+%rubik-700{
+  font-family: 'Rubik-Bold', sans-serif;
+ font-weight: 700;
+}
+
+%items{
+ @extend %rubik-500;
+ font-size: 14px;line-height: 32px;
+ color: #7b7b7b;
+
+}
+%hover-nav-header{
+  transition: background-color 0.5s, fill 0,5s;
+  &:hover{
+    background-color: #a3bbc8;
+    svg{
+      fill: #fff;
+    }
+  }
+
+}
+%hover-btn {
+    transition: color 0.5s;
+
+    &:hover {
+        color: #a3bbc8;
+    }
+} 
