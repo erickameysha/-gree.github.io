@@ -2,9 +2,10 @@
   "name": "gulp-start",
   "version": "1.0.0",
   "description": "",
+  "homepage": "",
   "main": "index.js",
   "dependencies": {
-    "-": "0.0.1",
+    "-": "^0.0.1",
     "@fancyapps/fancybox": "^3.5.7",
     "array-sort": "^1.0.0",
     "call-bind": "^1.0.2",
@@ -32,7 +33,8 @@
     "is-core-module": "^2.4.0",
     "is-data-descriptor": "^0.1.4",
     "jquery-form-styler": "^2.0.2",
-    "mixitup": "^3.3.1"
+    "mixitup": "^3.3.1",
+    "save-dev": "^0.0.1-security"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
