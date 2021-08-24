@@ -2,7 +2,7 @@
   "name": "gulp-start",
   "version": "1.0.0",
   "description": "",
-  "homepage": "",
+  "homepage": "http:erickameysha.github.io/gree",
   "main": "index.js",
   "dependencies": {
     "-": "^0.0.1",
@@ -50,7 +50,9 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC"
